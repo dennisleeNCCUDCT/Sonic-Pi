@@ -1,0 +1,10 @@
+sample:ambi_lunar_land
+play:C4
+sleep 1
+play:C3
+sleep 1
+sample '你的wav檔案名稱（不可以用mp3）'
+play:C4
+sleep 1
+play:C3
+sleep 1
