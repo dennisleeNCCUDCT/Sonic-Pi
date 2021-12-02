@@ -1,0 +1,46 @@
+use_bpm 120
+use_synth:blade
+2.times do
+  play :c4, release:4
+  sleep 1
+  play :e4,attack:5
+  sleep 1
+  play :g4,amp:3
+  sleep 1
+  play :e4,pan:1
+  sleep 1
+end
+
+
+2.times do
+  play :f3, release:4
+  sleep 1
+  play :e4,attack:5
+  sleep 1
+  play :g4,amp:3
+  sleep 1
+  play :e4
+  sleep 1
+end
+
+2.times do
+  play :g3, release:4
+  sleep 1
+  play :e4,attack:5
+  sleep 1
+  play :g4,amp:3
+  sleep 1
+  play :e4
+  sleep 1
+end
+
+2.times do
+  play :c3, release:4
+  sleep 1
+  play :e4,attack:5
+  sleep 1
+  play :g4,amp:3
+  sleep 1
+  play :e4
+  sleep 1
+end
