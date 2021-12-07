@@ -1,0 +1,24 @@
+use_bpm 120
+use_synth:blade
+
+dennis_lee=[chord(:B2,:minor),
+            chord(:C2,:major),
+            chord(:g2,:major)
+            #put chord her5e to define song composing
+            
+            
+            
+            ]
+chord_num=dennis_lee.length()
+print chord_num
+
+i=0
+loop do
+  play dennis_lee[i]
+  sleep 1.5
+  i=i+1
+  if i> chord_num
+    i=0
+  end
+end
+#keep playing the three chord repeatively
