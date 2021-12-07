@@ -1,0 +1,27 @@
+#live_loop section
+
+use_bpm 120
+use_synth:drum_bass_hard
+
+
+dennis_lee=[chord(:B2,:minor),
+            chord(:C4,:major),
+            chord(:g2,:major)
+            
+            
+            
+            
+            ]
+chord_num=dennis_lee.length()
+print chord_num
+
+i=0
+live_loop :dennis_lee do
+  use_synth:pretty_bell
+  play dennis_lee[i]
+  sleep 1.5
+  i=i+1
+  if i> chord_num
+    i=0
+  end
+end
